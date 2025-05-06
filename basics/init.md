@@ -61,3 +61,9 @@ It always goes to the previous commit
 and now head point to the latest commit c2
 ![image](https://github.com/user-attachments/assets/45cb6634-9b36-440c-a909-b3e2b4badd2e)
 ![image](https://github.com/user-attachments/assets/3eb714b0-702b-43b7-b791-b3e88532f7a1)
+![image](https://github.com/user-attachments/assets/db89d0dc-fac0-4cbb-b8e7-c9017ad72070)
+To see commit object
+Never ever edit commit objects
+![image](https://github.com/user-attachments/assets/923d9422-a04e-48df-86ed-128ba5626378)
+![image](https://github.com/user-attachments/assets/2dd2949c-17e4-453b-850e-02c0dda22140)
+
