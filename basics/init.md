@@ -56,14 +56,33 @@ The moment you do commit, a branch will be created.
 ![image](https://github.com/user-attachments/assets/3c88a29c-026d-4a70-96f5-e63bbce0738e)
 HEAD => pointing to the latest commit
 You can change the position of HEAD
-If you do another commit, the commit object is again created with reference to previous object
+If you do another commit, the commit object is again created with reference to the previous object
 It always goes to the previous commit
-and now head point to the latest commit c2
+and now head points to the latest commit c2
 ![image](https://github.com/user-attachments/assets/45cb6634-9b36-440c-a909-b3e2b4badd2e)
 ![image](https://github.com/user-attachments/assets/3eb714b0-702b-43b7-b791-b3e88532f7a1)
 ![image](https://github.com/user-attachments/assets/db89d0dc-fac0-4cbb-b8e7-c9017ad72070)
-To see commit object
+To see the commit object
 Never ever edit commit objects
 ![image](https://github.com/user-attachments/assets/923d9422-a04e-48df-86ed-128ba5626378)
 ![image](https://github.com/user-attachments/assets/2dd2949c-17e4-453b-850e-02c0dda22140)
+![image](https://github.com/user-attachments/assets/049ccf38-f45a-4f0b-83f8-345f9bcd7c76)
+# git commit -a -m "modified file"
+If you modify the already tracked file and you can do not need add again unless above command used.
 
+# You already committed and got the object,how will you do modification on commited files
+without new  commit
+git add file
+# git commit --amend
+for this you need to change the commit message
+![image](https://github.com/user-attachments/assets/eaf92c83-7d2e-435a-b15d-9f60c488e443)
+do not want change the commit message
+# git commit --amend --no-edit
+![image](https://github.com/user-attachments/assets/89efccb9-69f8-4cee-ad7a-077123a2b186)
+![image](https://github.com/user-attachments/assets/03435799-1a81-4ec6-ad0c-4b2accf4155a)
+# git commit -s -m "message"
+Sign off from the commit object
+ ![image](https://github.com/user-attachments/assets/99030653-231e-4094-a998-ab03bfbec381)
+# git commit --allow-empty -m  "dummy"
+create empty git commit
+![image](https://github.com/user-attachments/assets/02fbcb8b-a36e-49d8-b924-5f88c6c659c6)
