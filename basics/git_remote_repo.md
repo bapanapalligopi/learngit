@@ -8,4 +8,5 @@ A **remote repository** in Git is a **version of your project hosted on the inte
 
 * Your **local repo** is on your computer.
 * The **remote repo** is the shared copy everyone pushes to and pulls from.
+* 
 ![image](https://github.com/user-attachments/assets/3aff795e-b226-414b-89d1-01021bb3a530)
