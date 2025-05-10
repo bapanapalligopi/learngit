@@ -9,4 +9,4 @@ you do
 5. do some
 6. git checkout master
 7. git stash apply stashId
-8. 
+8. git stash clear
